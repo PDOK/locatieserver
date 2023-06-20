@@ -1,10 +1,24 @@
 # Locatieserver
 
-Voor het melden van issues, gebruik s.v.p. het Geoforum voor Locatieserver: https://geoforum.nl/c/applicaties-en-diensten/locatieserver.
+De huidige versie van Locatieserver is versie 3.1. Deze bevat onder andere:|
 
-De huidige versie van Locatieserver is versie 3.1. Deze bevat o.a. versionering van de endpoints, filtering op objecttype (t.b.v. backwards compatibility) en de Digitale Kadastrale Kaart (type:perceel en gekoppeld_perceel bij adressen). De API-beschrijving en de zoekvoorbeelden in de API-beschrijving zijn aangepast aan de nieuwe versie.
-Zie [hier](https://github.com/PDOK/locatieserver/wiki/API-Locatieserver) voor de API-beschrijving.
-Zie [hier](https://github.com/PDOK/locatieserver/wiki/API-Reverse-Geocoder) voor de API-beschrijving van de Reverse Geocoder.
+- versionering van de endpoints
+- filtering op objecttype (t.b.v. backwards compatibility)
+- de Digitale Kadastrale Kaart (`type:perceel` en `gekoppeld_perceel` bij adressen). De API-beschrijving en de zoekvoorbeelden in de API-beschrijving zijn aangepast aan de nieuwe versie.
+
+## Issues
+
+Gebruik het [Geoforum (Locatieserver categorie)](https://geoforum.nl/c/applicaties-en-diensten/locatieserver) voor het melden van issues.
+
+## Documentatie
+
+De Locatieserver API implementeert de Open API Specificatie (OAS) en heeft daarmee een HTML pagina die de functionaliteit van de API documenteert:
+
+- [`https://api.pdok.nl/bzk/locatieserver/search/v3_1/ui/`](https://api.pdok.nl/bzk/locatieserver/search/v3_1/ui/)
+
+Aanvullende documentatie met meer details is te vinden in de Wiki van dit repository:
+
+- [Locatieserver Wiki](https://github.com/PDOK/locatieserver/wiki)
 
 ## Changelog 3.1 tov 3.0
 
