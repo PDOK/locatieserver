@@ -1,6 +1,6 @@
 # Locatieserver
 
-Dit repository bevat gebruikersdocumentatie en aanvullende informatie voor gebruikers van de PDOK Locatieserver. 
+Deze repository bevat gebruikersdocumentatie en aanvullende informatie voor gebruikers van de PDOK Locatieserver.
 
 ## Issues
 
